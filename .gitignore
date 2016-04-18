@@ -1,0 +1,5 @@
+.idea
+psd
+.DS_Store
+composer.lock
+/vendor/
