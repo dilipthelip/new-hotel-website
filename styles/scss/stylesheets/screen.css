@@ -66,3 +66,76 @@ a img {
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block;
 }
+
+/* ----- Clearfix ----- */
+/* line 11, ../sass/screen.scss */
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+/* line 19, ../sass/screen.scss */
+.clearfix {
+  display: inline-block;
+}
+
+/* ----- VARIABLES ----- */
+/* ----- HEADER ----- */
+/* line 26, ../sass/screen.scss */
+.white-block {
+  width: 50%;
+  height: 134px;
+  float: left;
+}
+
+/* line 27, ../sass/screen.scss */
+.grey-block {
+  width: 50%;
+  height: 134px;
+  background: #363636;
+  float: left;
+}
+
+/* line 29, ../sass/screen.scss */
+.top-block {
+  position: relative;
+  top: -134px;
+  margin-bottom: -134px;
+  background: #363636;
+  float: left;
+}
+/* line 34, ../sass/screen.scss */
+.top-block .col-lg-3 {
+  padding-left: 0;
+  padding-right: 0;
+}
+/* line 39, ../sass/screen.scss */
+.top-block p {
+  color: #919191;
+}
+/* line 40, ../sass/screen.scss */
+.top-block .mail, .top-block .phone, .top-block .login {
+  margin-top: 20px;
+  margin-left: 50px;
+}
+/* line 42, ../sass/screen.scss */
+.top-block .login {
+  margin-top: 15px;
+  text-decoration: none;
+  border: 1px solid #4c4c4c;
+  padding: 5px 10px 5px 20px;
+  width: auto;
+  text-align: center;
+}
+/* line 49, ../sass/screen.scss */
+.top-block .login a {
+  color: #7f7f7f;
+  text-decoration: none;
+}
+/* line 52, ../sass/screen.scss */
+.top-block .login a img {
+  margin: 0 10px;
+}

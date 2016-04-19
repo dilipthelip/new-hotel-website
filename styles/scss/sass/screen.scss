@@ -4,3 +4,56 @@
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 
 @import "compass/reset";
+@import "compass/css3";
+
+/* ----- Clearfix ----- */
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+.clearfix {display: inline-block;}
+
+/* ----- VARIABLES ----- */
+$sans: OpenSans, sans-serif;
+
+
+/* ----- HEADER ----- */
+.white-block {width: 50%; height: 134px; float: left;}
+.grey-block {width: 50%; height: 134px; background: #363636; float: left;}
+
+.top-block {
+  position: relative;
+  top: -134px;
+  margin-bottom: -134px;
+  background: #363636; float: left;
+  .col-lg-3 {
+      padding-left: 0;
+      padding-right: 0;
+  }
+
+  p {color: #919191; }
+  .mail, .phone, .login {margin-top: 20px; margin-left: 50px}
+
+  .login {
+    margin-top: 15px;
+    text-decoration: none;
+    border: 1px solid #4c4c4c;
+    padding: 5px 10px 5px 20px;
+    width: auto;
+    text-align: center;
+      a {
+        color: #7f7f7f;
+        text-decoration: none;
+        img {
+          margin: 0 10px;
+        }
+    }
+  }
+}
+
+
