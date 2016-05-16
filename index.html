@@ -3,13 +3,18 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Search hotel</title>
+    <title>Nortsea hotel</title>
     <link href="styles/scss/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" type="text/css" href="styles/css/responsive.css" media="screen" />
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <script type="text/javascript" src="js/jquery-1.11.3.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,400italic,600,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
+    <script type="text/javascript" src="js/jquery-1.11.3.js"></script>
+    <script type="text/javascript" src="js/menu.js"></script>
+    <link rel="stylesheet" type="text/css" href="js/flexSlider/flexslider.css" media="screen" />
+    <script type="text/javascript" src="js/flexSlider/jquery.flexslider.js"></script>
 </head>
 <body>
     <!--   HEADER   -->
@@ -25,18 +30,102 @@
                             <a href="#"><img src="images/logo.jpg" alt="logo"></a>
                         </div>
 
-                        <div class="col-lg-9">
+                        <div class="col-lg-9 col-md-9">
                             <div class="row">
-                                <div class="col-lg-2 mail"><p>info@hellohelp.com</p></div>
-                                <div class="col-lg-2 phone"><p>+440 875369208</p></div>
+                                <div class="col-lg-3 col-md-3 mail"><a href="#"><img src="images/mail.png" alt="mail">info@hellohelp.com</a></div>
+                                <div class="col-lg-3 col-md-3 phone"><a href="#"><img src="images/phone.png" alt="phone">+440 875369208</a></div>
 
-                                <div class="col-lg-2 login"><a href="#">Log In<img src="images/right_arrow.png" alt="arrow"></a></div>
+                                <div class="pull-right">
+                                    <div class="col-lg-1 col-md-1 login"><a href="#">Log In<img src="images/right_arrow.png" alt="arrow"></a></div>
+
+                                    <div class="col-lg-1 col-md-1 language">
+                                        <ul>
+                                            <li>
+                                                <a href="#">En<img src="images/down_arrow.png" alt="arrow"></a>
+
+                                                <ul class="other">
+                                                    <li><a href="#">Ru</a></li>
+                                                    <li><a href="#">Es</a></li>
+                                                    <li><a href="#">Fr</a></li>
+                                                    <li><a href="#">Pt</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="col-lg-2 col-md-2 social">
+                                        <a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+                                        <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                        <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                                        <a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+                                    </div>
+                                </div>
                             </div>
+                        </div>
+
+                        <div class="col-lg-8 col-md-8 menu-wrapper">
+                            <nav class="menu">
+                                <ul>
+                                    <li><a href="#">Home</a></li>
+                                    <li><a href="#">About Us</a></li>
+                                    <li>
+                                        <a href="#">Services<span><i class="fa fa-caret-down" aria-hidden="true"></i></span></a>
+                                        <div class="sub-menu">
+                                            <ul>
+                                                <li><a href="#">Lorem ipsum<span><i class="fa fa-angle-right" aria-hidden="true"></i></span></a></li>
+                                                <li><a href="#">Lorem ipsum<span><i class="fa fa-angle-right" aria-hidden="true"></i></span></a></li>
+                                                <li><a href="#">Lorem ipsum<span><i class="fa fa-angle-right" aria-hidden="true"></i></span></a></li>
+                                                <li><a href="#">Lorem ipsum<span><i class="fa fa-angle-right" aria-hidden="true"></i></span></a></li>
+                                                <li><a href="#">Lorem ipsum<span><i class="fa fa-angle-right" aria-hidden="true"></i></span></a></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="#">Products<span><i class="fa fa-caret-down" aria-hidden="true"></i></span></a>
+                                        <div class="sub-menu">
+                                            <ul>
+                                                <li><a href="#">Lorem ipsum<span><i class="fa fa-angle-right" aria-hidden="true"></i></span></a></li>
+                                                <li><a href="#">Lorem ipsum<span><i class="fa fa-angle-right" aria-hidden="true"></i></span></a></li>
+                                                <li><a href="#">Lorem ipsum<span><i class="fa fa-angle-right" aria-hidden="true"></i></span></a></li>
+                                                <li><a href="#">Lorem ipsum<span><i class="fa fa-angle-right" aria-hidden="true"></i></span></a></li>
+                                                <li><a href="#">Lorem ipsum<span><i class="fa fa-angle-right" aria-hidden="true"></i></span></a></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li><a href="#">Gallery</a></li>
+                                    <li class="last"><a href="#">Contact</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+
+                        <div class="col-lg-1 last">
+                            <a class="magnifier" href="#"><img src="images/magnifier.png" alt="magnifier"></a>
+
+                            <form action="">
+                                <input class="search" type="text" placeholder="Enter Keywords" required>
+                            </form>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
+
+    <!--   SLIDER   -->
+    <div id="billboard" class="flexslider">
+        <ul class="slides">
+            <li>
+                <div class="slider-info">
+                    <p>35% sale</p>
+                    <h1>You enter summer with <br>refreshing rates</h1>
+                    <a class="action" href="#">explore it</a>
+                </div>
+                <img src="images/1.jpg" alt="slider-image">
+            </li>
+            <li><img src="images/2.jpeg" alt="slider-image"></li>
+            <li><img src="images/3.jpeg" alt="slider-image"></li>
+            <li><img src="images/4.jpg" alt="slider-image"></li>
+        </ul>
     </div>
 </body>
 </html>
