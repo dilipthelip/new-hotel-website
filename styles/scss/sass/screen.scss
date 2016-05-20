@@ -6,6 +6,8 @@
 @import "compass/reset";
 @import "compass/css3";
 
+body {background-image: url('../images/bg.png');}
+
 /* ----- Clearfix ----- */
 
 .clearfix:after {
@@ -28,7 +30,7 @@ $menu-font: ProximaNova, sans-serif;
 
 
 /* ----- HEADER ----- */
-.white-block {width: 50%; height: 134px; float: left;}
+.white-block {width: 50%; height: 134px; float: left; background: #ffffff;}
 .grey-block {width: 50%; height: 134px; background: #363636; float: left;}
 
 .top-block {
@@ -262,4 +264,161 @@ $menu-font: ProximaNova, sans-serif;
     text-decoration: none;
     letter-spacing: 1px;
   }
+}
+
+#billboard {position: relative;}
+
+.overslider {
+  position: absolute;
+  bottom: 35px;
+  left:0;
+  right: 0;
+  z-index: 3;
+
+  .row {
+    margin-right: -30px;
+    margin-left: -30px;
+  }
+}
+
+.temperature {
+  background: -webkit-linear-gradient(-49deg, #fff5aa 0%, #ffa800 100%);
+  background: -moz-linear-gradient(-49deg, #fff5aa 0%, #ffa800 100%);
+  background: -o-linear-gradient(-49deg, #fff5aa 0%, #ffa800 100%);
+  background: -ms-linear-gradient(-49deg, #fff5aa 0%, #ffa800 100%);
+  background: linear-gradient(139deg, #fff5aa 0%, #ffa800 100%);
+  width: 160px;
+  height: 200px;
+  position: absolute;
+  right: 0;
+  top: -557px;
+}
+
+.pictures {
+  background: -webkit-linear-gradient(-49deg, #919191 6%, #353535 94%);
+  background: -moz-linear-gradient(-49deg, #919191 6%, #353535 94%);
+  background: -o-linear-gradient(-49deg, #919191 6%, #353535 94%);
+  background: -ms-linear-gradient(-49deg, #919191 6%, #353535 94%);
+  background: linear-gradient(139deg, #919191 6%, #353535 94%);
+  width: 160px;
+  height: 123px;
+  position: absolute;
+  right: 0;
+  top: -354px;
+}
+
+.virtual {
+  background: #ffffff;
+  width: 160px;
+  height: 123px;
+  position: absolute;
+  right: 0;
+  top: -228px;
+}
+
+.temperature img, .pictures img, .virtual img {
+
+}
+
+.services {
+  width: 25%;
+  float: left;
+  text-align: center;
+  font-family: $sans;
+  color:  #959595;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+  margin-top: 50px;
+
+  a {
+    text-decoration: none;
+    color: #c2c2c2;
+    font-family: $sans;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+  }
+
+  h6 {
+    font-family: $sans;
+    color:  #464646;
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  a:hover {color: #c0a878; text-decoration: none;}
+
+  .last {margin-right: 0; padding-right: 0;}
+}
+
+
+.form {
+  background-color:  #fafafa;
+  box-shadow: 0 3px 0 0 #a6a6a6;
+  width: 100%;
+  height: 128px;
+  overflow: hidden;
+
+  p {
+    float: left;
+    width: 100px;
+    font-family: $sans;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 23px;
+    margin-right: 40px;
+    margin-left: 15px;
+    margin-top: 30px;
+
+    input {
+      width: 140px;
+      height: 40px;
+      border: 1px solid #ebebeb;
+      font-family: $sans;
+      color:  #c2c2c2;
+      font-size: 13px;
+      font-weight: 300;
+      line-height: 20px;
+      text-align: left;
+      margin-top: 15px;
+    }
+  }
+}
+
+.soflow {
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+  user-select: none;
+  background-color: #ffffff;
+  background-image: url('../images/down_arrow_light.png'), linear-gradient(left, transparent 60%, #ebebeb 40%);
+  background-position: 87% center;
+  background-repeat: no-repeat;
+  border: 1px solid #ebebeb;
+  margin-top: 15px;
+  padding: 5px 15px;
+  width: 80px;
+  height: 40px;
+  font-family: $sans;
+  color:  #c2c2c2;
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 20px;
+  text-align: left;
+}
+
+.submit {
+  background-image: url('../images/button_bg.png');
+  width: 180px;
+  height: 40px;
+  border: none;
+  font-family: $sans;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 23px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 65px;
 }

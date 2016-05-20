@@ -17,5 +17,11 @@
             animation: "fade",
             slideshow: false
         });
+
+
+        $(function() {
+            $( ".datepicker" ).datepicker();
+        });
+
     });
 })(jQuery);
