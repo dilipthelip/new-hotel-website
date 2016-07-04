@@ -261,6 +261,22 @@ a:focus, a:hover {text-decoration: none!important;}
     border: none;
     margin: 0;
 
+    .flex-direction-nav {
+      a {height: 60px;}
+    }
+
+    .flex-control-nav {
+      width: 1170px;
+      margin: 0 auto;
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      top: 500px;
+      z-index: 10;
+      text-align: left;
+    }
+
     .slides {
       height: 750px;
       overflow: hidden;
@@ -310,25 +326,12 @@ a:focus, a:hover {text-decoration: none!important;}
   }
 }
 
-.flex-control-nav {
-  width: 1170px;
-  margin: 0 auto;
-  float: left;
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 500px;
-  z-index: 10;
-}
-
-
-
 .overslider {
   position: absolute;
   bottom: 35px;
   left:0;
   right: 0;
-  z-index: 3;
+  z-index: 21;
 
   .row {
     margin-right: -30px;
