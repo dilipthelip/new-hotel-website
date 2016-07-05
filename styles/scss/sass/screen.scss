@@ -113,7 +113,7 @@ a:focus, a:hover {text-decoration: none!important;}
         font-family: $sans;
         font-weight: 400;
         font-size: 11px;
-        padding: 10px 20px;
+        padding: 11px 0 10px 0;
         display: block;
 
         img {
@@ -139,7 +139,7 @@ a:focus, a:hover {text-decoration: none!important;}
 
     a {
       display: block;
-      padding: 10px 0 10px 20px;
+      padding: 11px 0 10px 20px;
       font-family: $sans;
       font-weight: 400;
       font-size: 11px;
@@ -326,12 +326,29 @@ a:focus, a:hover {text-decoration: none!important;}
   }
 }
 
+#main {
+  position: relative;
+
+    .flexslider-2 {
+
+      .flex-control-nav {
+        position: absolute;
+        right: 20px;
+        top: 45px;
+        z-index: 10;
+        text-align: right;
+        width: 100px;
+        height: 20px;
+      }
+    }
+}
+
 .overslider {
   position: absolute;
   bottom: 35px;
   left:0;
   right: 0;
-  z-index: 21;
+  z-index: 14;
 
   .row {
     margin-right: -30px;
@@ -496,7 +513,7 @@ a:focus, a:hover {text-decoration: none!important;}
 
 /* ----- DATEPICKER ----- */
 .ui-datepicker {
-  z-index: 11!important;
+  z-index: 55!important;
   padding: 0!important;
 
   .ui-datepicker-header {
@@ -656,7 +673,7 @@ a:focus, a:hover {text-decoration: none!important;}
   }
 }
 
-.news {
+.news, .announcements {
   background: #ffffff;
   border: 1px solid #eaeaea;
   padding: 20px 30px;
