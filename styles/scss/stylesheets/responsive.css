@@ -1,0 +1,13 @@
+@media screen and (max-width: 320px) {
+  /* line 2, ../sass/responsive.scss */
+  .menu-toggle {
+    position: absolute;
+    top: 40px;
+    left: 20px;
+  }
+
+  /* line 7, ../sass/responsive.scss */
+  .magnifier {
+    float: right;
+  }
+}
