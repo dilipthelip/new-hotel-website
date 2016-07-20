@@ -1,13 +1,14 @@
-@media screen and (max-width: 320px) {
-  /* line 2, ../sass/responsive.scss */
-  .menu-toggle {
-    position: absolute;
-    top: 40px;
-    left: 20px;
+@media screen and (max-width: 1080px) {
+  /* line 3, ../sass/responsive.scss */
+  .header-contacts {
+    display: none;
   }
 
   /* line 7, ../sass/responsive.scss */
-  .magnifier {
-    float: right;
+  .menu-wrapper .menu-toggle {
+    position: absolute;
+    top: 40px;
+    left: 20px;
+    display: block;
   }
 }

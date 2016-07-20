@@ -353,7 +353,7 @@ a:focus, a:hover {
   color: #afafaf;
   border-radius: 30px;
   background: #8c8c8c;
-  padding: 0 7px;
+  padding: 0 7px 0 8px;
 }
 /* line 250, ../sass/screen.scss */
 .menu-wrapper li .sub-menu a {

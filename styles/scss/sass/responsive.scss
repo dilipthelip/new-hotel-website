@@ -1,8 +1,14 @@
-@media screen and (max-width: 320px) {
-  .menu-toggle {
-    position: absolute;
-    top: 40px;
-    left: 20px;
+@media screen and (max-width: 1080px) {
+
+  .header-contacts {display: none;}
+
+  .menu-wrapper {
+
+    .menu-toggle {
+      position: absolute;
+      top: 40px;
+      left: 20px;
+      display: block;
+    }
   }
-  .magnifier {float: right;}
 }
