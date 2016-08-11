@@ -194,7 +194,7 @@ a:focus, a:hover {text-decoration: none!important;}
   .last {padding-right: 0;}
   .magnifier {margin-top: 30px; padding-right: 0; float: right; display: block;}
   .search {
-    min-width: 852px;
+    width: 852px;
     background: #ffffff;
     position: relative;
     left: -770px;
@@ -205,6 +205,7 @@ a:focus, a:hover {text-decoration: none!important;}
     padding: 0 20px;
   }
 }
+.float-right {float: right;}
 
 .menu-wrapper {
   float: left;
@@ -292,13 +293,14 @@ a:focus, a:hover {text-decoration: none!important;}
 
     .flex-control-nav {
       width: 1170px;
+      height: 11px;
       margin: 0 auto;
       position: absolute;
       left: 0;
       right: 0;
       bottom: 0;
       top: 500px;
-      z-index: 10;
+      z-index: 111;
       text-align: left;
     }
 
@@ -717,8 +719,6 @@ a:focus, a:hover {text-decoration: none!important;}
     color: #757575;
     display: inline-block;
     margin-bottom: 10px;
-
-    img {margin-left: 10px;}
   }
 
   a:hover {color: #009fe3;}
@@ -821,6 +821,7 @@ a:focus, a:hover {text-decoration: none!important;}
     }
   }
 }
+
 
 .bottom-last {margin-bottom: 0!important; border-bottom: none!important;}
 
