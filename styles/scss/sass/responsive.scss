@@ -67,6 +67,7 @@
     margin: 10px 0 0 -20px;
   }
   .menu {display: none;}
+  .top-block li.last {float: left;}
   #billboard {
     .flexslider {
       .flex-control-nav {width: 728px; top: 230px; text-align: center; z-index: 50;}
@@ -92,15 +93,43 @@
 
 // Extra small devices (portrait phones, less than 544px)
 @media (max-width: 543px) {
+  .top-block {height: auto; background: #ffffff;
+    .logo {margin: 0 auto; img {margin: 0 auto; display: block;}}
+    .magnifier{position: absolute; top: -100px; right: 25px;}
+    .search {width: 300px; left: -340px; top: -20px;}}
+  .grey-block {display: none;}
+  .white-block {width: 100%;}
+  .login, .language, .social, .mail, .phone {display: none;}
+  .menu-wrapper .menu-toggle {position: absolute; top: -100px; left: -60px;}
+  .menu {position: absolute;}
+  .top-block li {width: 300px; left: -20px;}
+  .menu-wrapper .menu-toggle-line {background: #363636;}
   #billboard {.flexslider {.flex-control-nav {
-    width: 543px;}
+    width: 320px;}
       .slides {.slider-info {
-          width: 543px;}}}}}
+          width: 320px;}}}}
+  .news .image_thumbnail {float: none;}
+  .news .news_text h6 {margin-top: 10px;}
+  .products .products_text p {width: 100%;}
+  .copyright_wraper .right_border {border-right: none;}
+  .copyright_wraper a {display: block; margin: 0 auto; padding: 10px 0;}
+  .copyright_wraper .designed {padding: 10px 0;}
+  .copyright_wraper {.copyright, .designed {float: none; margin: 0 auto; text-align: center;}}
+  .footer{.footer_logo {display: block; margin: 20px auto;}}
+  .footer {padding-bottom: 10px;}
+  .footer h3 {margin-top: 20px;}
+}
+
 
 // 320px only
 @media (max-width: 320px) {
+  .top-block {
+    .search {width: 250px; left: -270px;}
+    .magnifier {right: 5px;}
+  }
+  .menu-wrapper .menu-toggle {left: -50px;}
   #billboard {.flexslider {.flex-control-nav {
-    width: 320px;}
+    width: 300px;}
     .slides {.slider-info {
-      width: 320px;}}}}
+      width: 300px;}}}}
 }
