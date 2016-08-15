@@ -86,9 +86,8 @@ a:focus, a:hover {text-decoration: none!important;}
   }
 
   .mail, .phone {
-    margin-top: 25px;
-    margin-left: 30px;
-    width: 150px;
+    margin: 25px 0 0 10px;
+    width: 180px;
 
     a {
       color: #919191;
@@ -200,7 +199,7 @@ a:focus, a:hover {text-decoration: none!important;}
     padding: 0 20px;
   }
 }
-.float-right {float: right;}
+.float-right {float: right; margin-right: 15px;}
 
 .menu-wrapper {
   float: left;
@@ -225,7 +224,7 @@ a:focus, a:hover {text-decoration: none!important;}
 
   li {
     float: left;
-    margin-right: 44px;
+    margin-right: 35px;
     position: relative;
     text-align: left;
 
@@ -281,20 +280,20 @@ a:focus, a:hover {text-decoration: none!important;}
   .flexslider {
     border: none;
     margin: 0;
+    overflow: hidden;
 
     .flex-direction-nav {
       a {height: 60px;}
     }
 
     .flex-control-nav {
-      width: 1170px;
+      width: 1140px;
       height: 11px;
       margin: 0 auto;
       position: absolute;
       left: 0;
       right: 0;
-      bottom: 0;
-      top: 500px;
+      bottom: 180px;
       z-index: 111;
       text-align: left;
     }
@@ -370,11 +369,6 @@ a:focus, a:hover {text-decoration: none!important;}
   left:0;
   right: 0;
   z-index: 14;
-
-  //.row {
-  //  margin-right: -30px;
-  //  margin-left: -30px;
-  //}
 }
 
 .temperature {
@@ -386,7 +380,7 @@ a:focus, a:hover {text-decoration: none!important;}
   width: 160px;
   height: 200px;
   position: absolute;
-  right: 0;
+  right: 15px;
   top: -557px;
 }
 
@@ -399,7 +393,7 @@ a:focus, a:hover {text-decoration: none!important;}
   width: 160px;
   height: 123px;
   position: absolute;
-  right: 0;
+  right: 15px;
   top: -353px;
 }
 
@@ -408,7 +402,7 @@ a:focus, a:hover {text-decoration: none!important;}
   width: 160px;
   height: 123px;
   position: absolute;
-  right: 0;
+  right: 15px;
   top: -226px;
 }
 
@@ -438,10 +432,8 @@ a:focus, a:hover {text-decoration: none!important;}
 .form {
   background-color:  #fafafa;
   box-shadow: 0 3px 0 0 #a6a6a6;
-  width: 100%;
-  height: 128px;
   overflow: hidden;
-  padding-left: 20px;
+  padding: 10px 0 20px 20px;
 
   .hotel {
     width: 140px;
@@ -465,16 +457,12 @@ a:focus, a:hover {text-decoration: none!important;}
     }
   }
 
-  p {
+  .form-selector {
     float: left;
-    width: 100px;
     font-family: $sans;
     font-size: 14px;
     font-weight: 700;
-    margin-left: 15px;
-    margin-top: 30px;
     color: #636363;
-    display: inline-table;
 
     input {
       width: 140px;
@@ -528,7 +516,7 @@ a:focus, a:hover {text-decoration: none!important;}
   line-height: 23px;
   text-align: center;
   text-transform: uppercase;
-  margin-top: 65px;
+  margin-top: 15px;
   margin-left: 15px;
 }
 
@@ -639,7 +627,7 @@ a:focus, a:hover {text-decoration: none!important;}
 }
 
 .about {
-  margin-top: 80px;
+  margin-top: 50px;
 
   h2 {
     font-family: $sansLight;

@@ -3,8 +3,9 @@
 
 @media (max-width: 1024px) {
   .top-block {
+    .magnifier {margin-top: 20px;}
     .logo {width: 220px;}
-    .mail, .phone {margin-left: 5px;}
+    .mail, .phone {margin-left: 0; width: auto;}
     .login, .language {width: 100px;}
     .last {float: right;}
     .search {width: 376px; left: -309px;}
@@ -13,7 +14,7 @@
     position: absolute;
     z-index: 222;
     width: 670px;
-    margin: 15px 0 0 -15px;
+    margin: 15px 0 0 -5px;
     .menu-toggle {
       display: block;
     }
@@ -38,7 +39,8 @@
         .slider-info {
           width: 970px;
           p {margin-top: 30px;}}}}}
-  .form p {margin-left: 5px;}
+  .form {padding-left: 0;}
+  .form .form-selector {margin-left: 5px;}
   .temperature, .virtual, .pictures {display: none;}
   .announcements {margin: 25px 0;}
   .footer{.footer_logo {display: none;}}
@@ -56,15 +58,15 @@
     .mail, .phone {margin: 10px 20px 0 0;}
     .login, .language {width: 100px;}
     .login, .language, .social {margin: 15px 10px 0 0;}
-    .search {width: 370px; left: -343px; top: -35px;}
-    .magnifier {margin: 15px 20px 0 0;}
+    .search {width: 370px; left: -210px; top: -35px;}
+    .magnifier {margin: 15px 0 0 0;}
   }
-  .float-right {float: left;}
+  .float-right {float: left; margin-left: 15px;}
   .menu-wrapper {
     position: absolute;
     z-index: 222;
     width: 670px;
-    margin: 10px 0 0 -20px;
+    margin: 10px 0 0 -5px;
   }
   .menu {display: none;}
   .top-block li.last {float: left;}
@@ -80,7 +82,6 @@
 
           h1 {font-size: 36px;}
           .action {position: absolute; top: 25px; right: 25px;}}}}}
-  .form {height: 160px;}
   .form p {margin: 10px 0 0 0;}
   .form p input {width: 120px;}
   .submit {margin: 20px 0 0 0;}
@@ -93,21 +94,38 @@
 
 // Extra small devices (portrait phones, less than 544px)
 @media (max-width: 543px) {
-  .top-block {height: auto; background: #ffffff;
+  .top-block {height: auto; background: #ffffff; float: none; top: 0; margin-bottom: 0;
     .logo {margin: 0 auto; img {margin: 0 auto; display: block;}}
     .magnifier{position: absolute; top: -100px; right: 25px;}
-    .search {width: 300px; left: -340px; top: -20px;}}
+    .search {width: 300px; left: -260px; top: -20px;}}
   .grey-block {display: none;}
-  .white-block {width: 100%;}
+  .white-block {display: none;}
   .login, .language, .social, .mail, .phone {display: none;}
   .menu-wrapper .menu-toggle {position: absolute; top: -100px; left: -60px;}
   .menu {position: absolute;}
   .top-block li {width: 300px; left: -20px;}
   .menu-wrapper .menu-toggle-line {background: #363636;}
-  #billboard {.flexslider {.flex-control-nav {
-    width: 320px;}
+  .overslider {box-shadow: 0 3px 0 0 #c0a878; position: relative; background: #fafafa; bottom: 6px;}
+  .form {box-shadow: none; .hotel {z-index: 22;}}
+  #billboard {.flexslider {
+    .slides {height: 245px;}
+    .flex-control-nav {
+      width: 380px;
+      text-align: left;
+      top: 170px;
+    }
       .slides {.slider-info {
-          width: 320px;}}}}
+        width: 380px;
+        padding: 0;
+        margin: 0 auto;
+
+        p {margin-top: 5px; font-size: 22px;}
+        h1 {font-size: 22px; margin: 0;}
+        .action {position: relative; top: 0; left: 0;}
+        }
+      }
+    }
+  }
   .news .image_thumbnail {float: none;}
   .news .news_text h6 {margin-top: 10px;}
   .products .products_text p {width: 100%;}
