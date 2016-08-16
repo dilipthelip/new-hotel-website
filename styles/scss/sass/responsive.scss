@@ -33,14 +33,14 @@
   .menu {display: none;}
   #billboard {
     .flexslider {
-      .flex-control-nav {width: 970px; top: 335px;}
+      .flex-control-nav {width: 940px; top: 335px;}
 
       .slides {height: 576px;
         .slider-info {
           width: 970px;
           p {margin-top: 30px;}}}}}
-  .form {padding-left: 0;}
-  .form .form-selector {margin-left: 5px;}
+  .form .form-selector {margin: 0 10px 0 5px;}
+  .submit {margin-left: 10px;}
   .temperature, .virtual, .pictures {display: none;}
   .announcements {margin: 25px 0;}
   .footer{.footer_logo {display: none;}}
@@ -84,8 +84,9 @@
           .action {position: absolute; top: 25px; right: 25px;}}}}}
   .form p {margin: 10px 0 0 0;}
   .form p input {width: 120px;}
-  .submit {margin: 20px 0 0 0;}
-  .about {margin-top: 40px;}
+  .submit {margin: 20px 0 0 5px;}
+  .services {margin-top: 20px;}
+  .about {margin-top: 30px;}
   .flexslider-2 .flex-direction-nav {.flex-next, .flex-prev {display: none;}}
   .temperature, .virtual, .pictures {display: none;}
   .footer p {width: auto;}
@@ -95,15 +96,29 @@
 // Extra small devices (portrait phones, less than 544px)
 @media (max-width: 543px) {
   .top-block {height: auto; background: #ffffff; float: none; top: 0; margin-bottom: 0;
+    li {width: 543px; background: #363636; border-bottom: 1px solid #3b3b3b; color: #ffffff;}
     .logo {margin: 0 auto; img {margin: 0 auto; display: block;}}
-    .magnifier{position: absolute; top: -100px; right: 25px;}
+    .magnifier{position: absolute; top: -100px; right: 25px; margin: 0;}
     .search {width: 300px; left: -260px; top: -20px;}}
   .grey-block {display: none;}
   .white-block {display: none;}
   .login, .language, .social, .mail, .phone {display: none;}
-  .menu-wrapper .menu-toggle {position: absolute; top: -100px; left: -60px;}
-  .menu {position: absolute;}
-  .top-block li {width: 300px; left: -20px;}
+  .menu {position: absolute; top: -40px; left:0;}
+  .menu-wrapper {margin: 0; a span {float: right;}}
+  .menu-wrapper .menu-toggle {position: absolute; top: -100px; left: 20px;}
+  .menu-wrapper li {padding: 5px 25px;}
+  .menu-wrapper li:hover {background: #272727;}
+  .menu-wrapper li .sub-menu {
+    width: 100%;
+    border-top: none;
+    position: relative;
+    overflow: scroll;
+    height: 90px;
+    top: 0;
+
+    li {padding: 5px 25px;; margin: 0; background: #272727; width: 100%; border-bottom: none; color: #a2a2a2;}
+    span {display: none;}
+  }
   .menu-wrapper .menu-toggle-line {background: #363636;}
   .overslider {box-shadow: 0 3px 0 0 #c0a878; position: relative; background: #fafafa; bottom: 6px;}
   .form {box-shadow: none; .hotel {z-index: 22;}}
@@ -138,16 +153,48 @@
   .footer h3 {margin-top: 20px;}
 }
 
+@media (max-width: 425px) {
+  .top-block li {width: 425px;}
+  .selector-name {margin-top: 15px;}
+  .form .form-selector input {width: 355px; margin-top: 10px;}
+  .soflow {
+    background-image: url("../images/down_arrow_light.png"), linear-gradient(to right, rgba(0, 0, 0, 0) 70%, #ebebeb 40%);
+    width: 160px;
+    padding: 5px 20px;
+  }
+}
+
+@media (max-width: 375px) {
+  .top-block li {width: 375px;}
+  #billboard .flexslider .slides {height: 217px;}
+  #billboard .flexslider .slides .slider-info {width: 350px;}
+  #billboard .flexslider .flex-control-nav {width: 350px; top: 140px;}
+  #billboard .flexslider .slides .slider-info .action {padding: 10px; font-size: 12px;}
+  #billboard .flexslider .slides .slider-info h1 {font-size: 18px;}
+  #billboard .flexslider .slides .slider-info p {font-size: 18px;}
+  .form .form-selector input {width: 295px;}
+  .soflow {
+    background-image: url("../images/down_arrow_light.png"), linear-gradient(to right, rgba(0, 0, 0, 0) 67%, #ebebeb 40%);
+    width: 140px;
+  }
+}
 
 // 320px only
 @media (max-width: 320px) {
   .top-block {
+    li {width: 320px;}
     .search {width: 250px; left: -270px;}
-    .magnifier {right: 5px;}
+    .magnifier {right: 10px;}
   }
-  .menu-wrapper .menu-toggle {left: -50px;}
-  #billboard {.flexslider {.flex-control-nav {
-    width: 300px;}
-    .slides {.slider-info {
-      width: 300px;}}}}
+  .menu-wrapper .menu-toggle {left: 10px;}
+  #billboard {.flexslider {.flex-control-nav {width: 290px; top: 110px;}
+    .slides {height: 187px; .slider-info {width: 290px; h1, p {font-size: 16px;} .action {padding: 10px; font-size: 12px; left: 180px;}}}}}
+
+
+
+  .form .form-selector input {width: 255px;}
+  .soflow {
+    background-image: url("../images/down_arrow_light.png"), linear-gradient(to right, rgba(0, 0, 0, 0) 65%, #ebebeb 40%);
+    width: 120px;
+  }
 }

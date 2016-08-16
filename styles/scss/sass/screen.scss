@@ -67,7 +67,7 @@ a:focus, a:hover {text-decoration: none!important;}
 
 /* ----- HEADER ----- */
 .white-block {width: 50%; height: 134px; float: left; background: #ffffff;}
-.grey-block {width: 50%; height: 134px; background: #363636; float: left;}
+.grey-block {width: 50%; height: 134px; background: #363636; float: right;}
 .logo-back {background: #ffffff;}
 .top-block {
   position: relative;
@@ -201,6 +201,17 @@ a:focus, a:hover {text-decoration: none!important;}
 }
 .float-right {float: right; margin-right: 15px;}
 
+.triangle-wrapper {
+  display: block;
+  width: 0;
+  height: 0;
+  content: '';
+  margin-left: 28px;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 14px solid #363636;
+
+}
 .menu-wrapper {
   float: left;
   margin-top: 25px;
@@ -293,7 +304,7 @@ a:focus, a:hover {text-decoration: none!important;}
       position: absolute;
       left: 0;
       right: 0;
-      bottom: 180px;
+      bottom: 200px;
       z-index: 111;
       text-align: left;
     }
@@ -463,6 +474,7 @@ a:focus, a:hover {text-decoration: none!important;}
     font-size: 14px;
     font-weight: 700;
     color: #636363;
+    margin-right: 30px;
 
     input {
       width: 140px;
@@ -472,11 +484,10 @@ a:focus, a:hover {text-decoration: none!important;}
       color:  #c2c2c2;
       font-size: 13px;
       font-weight: 300;
-      text-align: left;
       margin-top: 15px;
     }
 
-    .datepicker {background: url("../images/calendar.png")no-repeat right 10% top 50%; padding-left: 15px; margin-right: 15px;}
+    .datepicker {background: url("../images/calendar.png")no-repeat right 10% top 50%; padding-left: 15px;}
     .datepicker:focus {border: 1px solid #c0a878; outline: none;}
     select {outline: none;}
   }
@@ -516,7 +527,7 @@ a:focus, a:hover {text-decoration: none!important;}
   line-height: 23px;
   text-align: center;
   text-transform: uppercase;
-  margin-top: 15px;
+  margin-top: 35px;
   margin-left: 15px;
 }
 

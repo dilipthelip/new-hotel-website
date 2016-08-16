@@ -31,7 +31,7 @@
                     <a class="logo" href="#"><img src="styles/scss/images/header_logo.png" alt="logo"></a>
                 </div>
 
-                <div class="col-lg-9 col-md-9 col-sm-7 col-xs-3  header-contacts">
+                <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12  header-contacts">
                     <div class="row">
                         <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 mail"><a href="#"><img src="styles/scss/images/mail.png" alt="mail">info@hellohelp.com</a></div>
                         <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 phone"><a href="#"><img src="styles/scss/images/phone.png" alt="phone">+440 875369208</a></div>
@@ -64,9 +64,10 @@
                     </div>
                 </div>
 
-                <div class="col-lg-8 col-md-6 col-sm-5 col-xs-6 menu-wrapper">
+                <div class="col-lg-8 col-md-6 col-sm-5 col-xs-12 menu-wrapper">
                     <a href="#" class="menu-toggle"><div class="menu-toggle-line"></div><div class="menu-toggle-line"></div><div class="menu-toggle-line"></div></a>
                     <nav class="menu">
+                        <div class="triangle-wrapper"></div>
                         <ul>
                             <li><a href="#">Home</a></li>
                             <li><a href="#">About Us</a></li>
@@ -100,7 +101,7 @@
                     </nav>
                 </div>
 
-                <div class="col-lg-1 col-md-3 col-sm-3 col-xs-3">
+                <div class="col-lg-1 col-md-3 col-sm-3 col-xs-12">
                     <a class="magnifier" href="#"><img src="styles/scss/images/magnifier.png" alt="magnifier"></a>
 
                     <form>
@@ -176,12 +177,18 @@
 
                     <form class="form">
                         <div class="hotel"><span>Hotel</span></div>
-                        <div class="form-selector">Arrival: <input type="text" class="datepicker" required></div>
-
-                        <div class="form-selector">Going: <input type="text" class="datepicker" required></div>
+                        <div class="form-selector">
+                            <div class="selector-name">Arrival</div>
+                            <input type="text" class="datepicker" required>
+                        </div>
 
                         <div class="form-selector">
-                            Room
+                            <div class="selector-name">Going</div>
+                            <input type="text" class="datepicker" required>
+                        </div>
+
+                        <div class="form-selector">
+                            <div class="selector-name">Room</div>
                             <select class="soflow">
                                 <option>1</option>
                                 <option>2</option>
@@ -191,7 +198,7 @@
                         </div>
 
                         <div class="form-selector">
-                            Person
+                            <div class="selector-name">Person</div>
                             <select class="soflow">
                                 <option>1</option>
                                 <option>2</option>
@@ -201,7 +208,7 @@
                         </div>
 
                         <div class="form-selector">
-                            Child
+                            <div class="selector-name">Child</div>
                             <select class="soflow">
                                 <option>0</option>
                                 <option>1</option>
@@ -211,7 +218,7 @@
                         </div>
 
                         <div class="form-selector">
-                            Day
+                            <div class="selector-name">Day</div>
                             <select class="soflow">
                                 <option>1</option>
                                 <option>2</option>
