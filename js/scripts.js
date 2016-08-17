@@ -43,6 +43,10 @@
         },
         function () {
             $(this).removeClass("active-div")
-        })
+        });
+
+        $(".menu-wrapper li .sub-menu").mCustomScrollbar({
+            theme:"minimal"
+        });
     });
 })(jQuery);

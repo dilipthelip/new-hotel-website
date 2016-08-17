@@ -227,7 +227,6 @@ a:focus, a:hover {text-decoration: none!important;}
     width: 25px;
     height: 3px;
     display: inline-block;
-    //background: #343434;
     background: white;
     float: left;
     margin: 5px 3px 1px 5px;
@@ -242,7 +241,7 @@ a:focus, a:hover {text-decoration: none!important;}
     .sub-menu {
       width: 250px;
       position: absolute;
-      top: 46px;
+      top: 42px;
       left: 0;
       display: none;
       z-index: 10;
@@ -474,7 +473,7 @@ a:focus, a:hover {text-decoration: none!important;}
     font-size: 14px;
     font-weight: 700;
     color: #636363;
-    margin-right: 30px;
+    margin-right: 50px;
 
     input {
       width: 140px;
