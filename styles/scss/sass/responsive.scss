@@ -1,46 +1,26 @@
 // Large devices (desktops, less than 1200px)
-@media (max-width: 1199px) {}
+@media (max-width: 1199px) {
+  .mail {margin: 35px 30px 0 30px;}
+  .menu-wrapper {margin-left: 20px; a {padding: 0 8px 19px 8px;}}
+  .billboard .slider-info {
+    p {margin-top: 40px;}
+    h1 {font-size: 50px;}
+  }
+  .form .form-selector {margin-right: 17px;}
+}
 
 @media (max-width: 1024px) {
-  .top-block {
-    .magnifier {margin-top: 20px;}
-    .logo {width: 220px;}
-    .mail, .phone {margin-left: 0; width: auto;}
-    .login, .language {width: 100px;}
-    .last {float: right;}
-    .search {width: 376px; left: -309px;}
+  .mail {margin: 35px 10px 0 10px;}
+  .menu-wrapper {margin: 5px 0 0 0;}
+  .magnifier {position: absolute; right: 0; top: 70px;}
+  .slides {height: 576px;}
+  .billboard .slider-info {
+    h1 {font-size: 46px;}
+    p {margin-top: 30px; font-size: 38px;}
   }
-  .menu-wrapper {
-    position: absolute;
-    z-index: 222;
-    width: 670px;
-    margin: 15px 0 0 -5px;
-    .menu-toggle {
-      display: block;
-    }
-    li {
-      width: 100%;
-      background: #ffffff;
-      padding: 10px 20px;
-      margin-right: 0;
-      border-bottom: 1px solid #ebebeb;
-
-      .sub-menu {a {padding: 0;} li {padding: 10px 0;}}}
-    a {padding: 0;}
-    a:hover {border-bottom: none;}
-
-  }
-  .menu {display: none;}
-  #billboard {
-    .flexslider {
-      .flex-control-nav {width: 940px; top: 335px;}
-
-      .slides {height: 576px;
-        .slider-info {
-          width: 970px;
-          p {margin-top: 30px;}}}}}
+  .billboard .flex-control-nav {bottom: 220px;}
   .form .form-selector {margin: 0 10px 0 5px;}
-  .submit {margin-left: 10px;}
+  .submit {margin-left: 5px;}
   .temperature, .virtual, .pictures {display: none;}
   .announcements {margin: 25px 0;}
   .footer{.footer_logo {display: none;}}
@@ -48,99 +28,97 @@
 
 // Medium devices (tablets, less than 992px)
 @media (max-width: 991px) {
-
+  .logo {padding: 43px 60px 37px 60px;}
+  .magnifier {position: absolute; left: 265px; top: 35px;}
+  .menu-wrapper {
+    margin: 0;
+    clear: both;
+    z-index: 111;
+    width: 100%;
+    background: #363636;
+    li {margin: 0; float: none;}
+    a {padding: 10px 0 5px 25px;}
+    a:hover {border: none;}
+    .sub-menu {
+      position: relative;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background: #272727;
+      height: 130px;
+      border-bottom: 3px solid #c0a878;
+      li {margin: 0; border-bottom: none; width: auto; padding: 0 40px;}
+      a {color: #a2a2a2; padding: 10px 0;}
+    }
+  }
+  .menu {display: none; ul {margin: 0;}}
+  .menu-toggle-line {background: #343434;}
+  .menu-toggle {display: block;}
+  .social-wrapper {float: left; margin-left: 10px;}
+  .triangle-wrapper {position: absolute; left: -15px; top: -14px;}
+  .billboard .slider-info {
+    p {margin-top: 15px;}
+    h1 {font-size: 36px;}
+    .action {position: absolute; top: 25px; right: 15px;}
+  }
+  .submit {margin-top: 10px;}
+  .services {margin-top: 10px;}
+  .overslider {bottom: 190px;}
+  .billboard .flex-control-nav {bottom: 400px;}
 }
 
 // Small devices (landscape phones, less than 768px)
 @media (max-width: 768px) {
-  .top-block {
-    .logo {width: 220px;}
-    .mail, .phone {margin: 10px 20px 0 0;}
-    .login, .language {width: 100px;}
-    .login, .language, .social {margin: 15px 10px 0 0;}
-    .search {width: 370px; left: -210px; top: -35px;}
-    .magnifier {margin: 15px 0 0 0;}
-  }
-  .float-right {float: left; margin-left: 15px;}
-  .menu-wrapper {
-    position: absolute;
-    z-index: 222;
-    width: 670px;
-    margin: 10px 0 0 -5px;
-  }
-  .menu {display: none;}
-  .top-block li.last {float: left;}
-  #billboard {
-    .flexslider {
-      .flex-control-nav {width: 728px; top: 230px; text-align: center; z-index: 50;}
-      .flex-direction-nav a {display: none;}
-      .slides {height: 450px;
-        .slider-info {
-          font-size: 36px;
-          padding: 0 20px;
-          width: 748px;
+  .social-wrapper {display: none;}
+  .mail {margin: 20px 10px 0 10px;}
+  .phone {margin: 20px 0 0 10px;}
+  .billboard {
+    .slides {height: 450px;}
+    .slider-info {
+      font-size: 36px;
+      padding: 0 20px;
 
-          h1 {font-size: 36px;}
-          .action {position: absolute; top: 25px; right: 25px;}}}}}
+      .action {top: 15px; padding: 15px;}
+      h1 {font-size: 30px;}
+    }
+    .flex-control-nav {bottom: 240px;}
+  }
+  .overslider {bottom: 0;}
   .form p {margin: 10px 0 0 0;}
   .form p input {width: 120px;}
-  .submit {margin: 20px 0 0 5px;}
-  .services {margin-top: 20px;}
+  .submit {margin-top: 35px;}
   .about {margin-top: 30px;}
-  .flexslider-2 .flex-direction-nav {.flex-next, .flex-prev {display: none;}}
+  .flexslider-2 .flex-direction-nav {
+    .flex-next, .flex-prev {
+      display: none;
+    }
+  }
   .temperature, .virtual, .pictures {display: none;}
-  .footer p {width: auto;}
   .products .products_text p {width: 50%; margin-right: 50px;}
+  .news {
+    .news_text {margin-top: 10px;}
+    .news_text, .news_thumbnail {width: 100%;}
+  }
 }
 
 // Extra small devices (portrait phones, less than 544px)
 @media (max-width: 543px) {
-  .top-block {height: auto; background: #ffffff; float: none; top: 0; margin-bottom: 0;
-    li {width: 543px; background: #363636; border-bottom: 1px solid #3b3b3b; color: #ffffff;}
-    .logo {margin: 0 auto; img {margin: 0 auto; display: block;}}
-    .magnifier{position: absolute; top: -100px; right: 25px; margin: 0;}
-    .search {width: 300px; left: -260px; top: -20px;}}
-  .grey-block {display: none;}
-  .white-block {display: none;}
-  .login, .language, .social, .mail, .phone {display: none;}
-  .menu {position: absolute; top: -40px; left:0;}
-  .menu-wrapper {margin: 0; a span {float: right;}}
-  .menu-wrapper .menu-toggle {position: absolute; top: -100px; left: 20px;}
-  .menu-wrapper li {padding: 5px 25px;}
-  .menu-wrapper li:hover {background: #272727;}
-  .menu-wrapper li .sub-menu {
-    width: 100%;
-    border-top: none;
-    position: relative;
-    overflow: auto;
-    height: 90px;
-    top: 0;
-
-    li {padding: 5px 25px;; margin: 0; background: #272727; width: 100%; border-bottom: none; color: #a2a2a2;}
-    span {display: none;}
-  }
-  .menu-wrapper .menu-toggle-line {background: #363636;}
+  .logo {width: 100%; text-align: center;}
+  .magnifier {right: 0; left: auto; }
+  .phone, .mail {display: none;}
   .overslider {box-shadow: 0 3px 0 0 #c0a878; position: relative; background: #fafafa; bottom: 6px;}
-  .form {box-shadow: none; .hotel {z-index: 22;}}
-  #billboard {.flexslider {
+  .form {padding: 10px; box-shadow: none; .hotel {z-index: 22;}}
+  .billboard {
     .slides {height: 245px;}
-    .flex-control-nav {
-      width: 380px;
-      text-align: left;
-      top: 170px;
-    }
-      .slides {.slider-info {
-        width: 380px;
-        padding: 0;
-        margin: 0 auto;
-
-        p {margin-top: 5px; font-size: 22px;}
-        h1 {font-size: 22px; margin: 0;}
-        .action {position: relative; top: 0; left: 0;}
-        }
-      }
-    }
+    .flex-control-nav {bottom: 100px;}
+    .slider-info {
+      margin: 0 auto;
+      p {margin-top: 5px; font-size: 22px;}
+      h1 {font-size: 26px; margin: 25px 0 10px;}
+      .action {padding: 5px 10px;}
+     }
   }
+  .overslider {bottom: 50px;}
   .news .image_thumbnail {float: none;}
   .news .news_text h6 {margin-top: 10px;}
   .products .products_text p {width: 100%;}
@@ -154,25 +132,35 @@
 }
 
 @media (max-width: 425px) {
-  .top-block li {width: 425px;}
+  .billboard {
+    .slides {height: 220px;}
+    .flex-control-nav {float: right; bottom: 70px;}
+  }
   .selector-name {margin-top: 15px;}
-  .form .form-selector input {width: 355px; margin-top: 10px;}
+  .form-date {width: 100%; margin: 0;}
+  .form .form-selector input {width: 100%; margin-top: 10px;}
+  .form .form-selector {margin: 0;}
+  .form-number {width: 50%;}
   .soflow {
     background-image: url("../images/down_arrow_light.png"), linear-gradient(to right, rgba(0, 0, 0, 0) 70%, #ebebeb 40%);
-    width: 160px;
+    width: 90%;
     padding: 5px 20px;
+    margin-top: 5px;
   }
+  .submit {margin: 15px 0 0 0;}
 }
 
 @media (max-width: 375px) {
-  .top-block li {width: 375px;}
-  #billboard .flexslider .slides {height: 217px;}
-  #billboard .flexslider .slides .slider-info {width: 350px;}
-  #billboard .flexslider .flex-control-nav {width: 350px; top: 140px;}
-  #billboard .flexslider .slides .slider-info .action {padding: 10px; font-size: 12px;}
-  #billboard .flexslider .slides .slider-info h1 {font-size: 18px;}
-  #billboard .flexslider .slides .slider-info p {font-size: 18px;}
-  .form .form-selector input {width: 295px;}
+  .billboard {
+    .slides {height: 185px;}
+    .slider-info {
+      .action {padding: 10px; font-size: 12px;}
+      h1, p {font-size: 18px;}
+    }
+    .flex-control-nav {bottom: 70px;}
+  }
+  .form-date {width: 100%; margin: 0;}
+  .form .form-selector input {width: 100%; margin-top: 10px;}
   .soflow {
     background-image: url("../images/down_arrow_light.png"), linear-gradient(to right, rgba(0, 0, 0, 0) 67%, #ebebeb 40%);
     width: 140px;
@@ -181,16 +169,7 @@
 
 // 320px only
 @media (max-width: 320px) {
-  .top-block {
-    li {width: 320px;}
-    .search {width: 250px; left: -270px;}
-    .magnifier {right: 10px;}
-  }
-  .menu-wrapper .menu-toggle {left: 10px;}
-  #billboard {.flexslider {.flex-control-nav {width: 290px; top: 110px;}
-    .slides {height: 187px; .slider-info {width: 290px; h1, p {font-size: 16px;} .action {padding: 10px; font-size: 12px; left: 180px;}}}}}
-
-
+  .slides {height: 185px; .slider-info {h1, p {font-size: 14px;} .action {padding: 5px; font-size: 12px; top: 5px;}}}
 
   .form .form-selector input {width: 255px;}
   .soflow {

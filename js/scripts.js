@@ -19,12 +19,16 @@
 
         $('.flexslider').flexslider({
             animation: "fade",
-            slideshow: true
+            slideshow: true,
+            directionNav: false
         });
 
         $('.flexslider-2').flexslider({
-            animation: "slide"
+            animation: "slide",
+            directionNav: false
         });
+
+        $(".flexslider ol").addClass("container");
 
 
         $(function() {
