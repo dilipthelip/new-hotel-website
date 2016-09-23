@@ -497,6 +497,7 @@
   /* line 163, ../sass/responsive.scss */
   .billboard .slider-info h1, .billboard .slider-info p {
     font-size: 18px;
+    margin: 40px 0 10px;
   }
   /* line 165, ../sass/responsive.scss */
   .billboard .flex-control-nav {
