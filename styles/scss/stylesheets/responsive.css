@@ -381,6 +381,7 @@
 
   /* line 127, ../sass/responsive.scss */
   .news .image_thumbnail {
+    margin-right: 0;
     float: none;
   }
 
