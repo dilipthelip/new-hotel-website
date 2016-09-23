@@ -14,14 +14,16 @@
   .menu-wrapper {margin: 5px 0 0 0;}
   .magnifier {position: absolute; right: 0; top: 70px;}
   .slides {height: 576px;}
-  .billboard .slider-info {
+  .billboard {
+    .flex-control-nav {bottom: 380px;}
+    .slider-info {
     h1 {font-size: 46px;}
     p {margin-top: 30px; font-size: 38px;}
+    }
   }
-  .billboard .flex-control-nav {bottom: 220px;}
+  .overslider {bottom: 210px;}
   .form .form-selector {margin: 0 10px 0 5px;}
   .submit {margin-left: 5px;}
-  .temperature, .virtual, .pictures {display: none;}
   .announcements {margin: 25px 0;}
   .footer{.footer_logo {display: none;}}
 }
@@ -93,7 +95,7 @@
       display: none;
     }
   }
-  .temperature, .virtual, .pictures {display: none;}
+  .sidebar-wrapper {display: none;}
   .products .products_text p {width: 50%; margin-right: 50px;}
   .news {
     .news_text {margin-top: 10px;}
