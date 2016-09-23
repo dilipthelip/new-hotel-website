@@ -429,7 +429,7 @@ a:focus, a:hover {
   padding: 0 15px;
   position: relative;
   bottom: 230px;
-  z-index: 111;
+  z-index: 40;
 }
 /* line 203, ../sass/screen.scss */
 .billboard .flex-control-nav li {
@@ -461,23 +461,24 @@ a:focus, a:hover {
 }
 /* line 224, ../sass/screen.scss */
 .billboard .slides {
-  height: 750px;
+  max-height: 750px;
   overflow: hidden;
 }
 /* line 225, ../sass/screen.scss */
 .billboard .slides .container {
   position: relative;
 }
-/* line 229, ../sass/screen.scss */
+/* line 228, ../sass/screen.scss */
 .billboard .slides li img {
   width: 100%;
 }
-/* line 234, ../sass/screen.scss */
+/* line 233, ../sass/screen.scss */
 .billboard .slider-info {
   width: 100%;
   padding: 0 15px;
   position: absolute;
   margin: 0 auto;
+  z-index: 0;
 }
 /* line 240, ../sass/screen.scss */
 .billboard .slider-info p {

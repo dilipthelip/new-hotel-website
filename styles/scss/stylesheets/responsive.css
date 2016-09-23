@@ -14,95 +14,104 @@
   }
 
   /* line 6, ../sass/responsive.scss */
+  .billboard .flex-control-nav {
+    bottom: 200px;
+  }
+  /* line 8, ../sass/responsive.scss */
   .billboard .slider-info p {
     margin-top: 40px;
   }
-  /* line 7, ../sass/responsive.scss */
+  /* line 9, ../sass/responsive.scss */
   .billboard .slider-info h1 {
     font-size: 50px;
   }
 
-  /* line 9, ../sass/responsive.scss */
+  /* line 11, ../sass/responsive.scss */
+  .overslider {
+    bottom: 40px;
+  }
+
+  /* line 12, ../sass/responsive.scss */
   .form .form-selector {
     margin-right: 17px;
   }
+
+  /* line 13, ../sass/responsive.scss */
+  .footer .footer_logo {
+    display: none;
+  }
 }
 @media (max-width: 1024px) {
-  /* line 13, ../sass/responsive.scss */
+  /* line 17, ../sass/responsive.scss */
   .mail {
     margin: 35px 10px 0 10px;
   }
 
-  /* line 14, ../sass/responsive.scss */
+  /* line 18, ../sass/responsive.scss */
   .menu-wrapper {
     margin: 5px 0 0 0;
   }
 
-  /* line 15, ../sass/responsive.scss */
+  /* line 19, ../sass/responsive.scss */
   .magnifier {
     position: absolute;
     right: 0;
     top: 70px;
   }
 
-  /* line 16, ../sass/responsive.scss */
+  /* line 20, ../sass/responsive.scss */
   .slides {
-    height: 576px;
+    max-height: 576px;
   }
 
-  /* line 18, ../sass/responsive.scss */
+  /* line 22, ../sass/responsive.scss */
   .billboard .flex-control-nav {
-    bottom: 380px;
+    bottom: 190px;
   }
-  /* line 20, ../sass/responsive.scss */
+  /* line 24, ../sass/responsive.scss */
   .billboard .slider-info h1 {
     font-size: 46px;
   }
-  /* line 21, ../sass/responsive.scss */
+  /* line 25, ../sass/responsive.scss */
   .billboard .slider-info p {
     margin-top: 30px;
     font-size: 38px;
   }
 
-  /* line 24, ../sass/responsive.scss */
+  /* line 28, ../sass/responsive.scss */
   .overslider {
-    bottom: 210px;
+    bottom: 30px;
   }
 
-  /* line 25, ../sass/responsive.scss */
+  /* line 29, ../sass/responsive.scss */
   .form .form-selector {
     margin: 0 10px 0 5px;
   }
 
-  /* line 26, ../sass/responsive.scss */
+  /* line 30, ../sass/responsive.scss */
   .submit {
     margin-left: 5px;
   }
 
-  /* line 27, ../sass/responsive.scss */
+  /* line 31, ../sass/responsive.scss */
   .announcements {
     margin: 25px 0;
   }
-
-  /* line 28, ../sass/responsive.scss */
-  .footer .footer_logo {
-    display: none;
-  }
 }
 @media (max-width: 991px) {
-  /* line 33, ../sass/responsive.scss */
+  /* line 36, ../sass/responsive.scss */
   .logo {
     padding: 43px 60px 37px 60px;
   }
 
-  /* line 34, ../sass/responsive.scss */
+  /* line 37, ../sass/responsive.scss */
   .magnifier {
     position: absolute;
     left: 265px;
     top: 35px;
   }
 
-  /* line 35, ../sass/responsive.scss */
+  /* line 38, ../sass/responsive.scss */
   .menu-wrapper {
     margin: 0;
     clear: both;
@@ -110,20 +119,20 @@
     width: 100%;
     background: #363636;
   }
-  /* line 41, ../sass/responsive.scss */
+  /* line 44, ../sass/responsive.scss */
   .menu-wrapper li {
     margin: 0;
     float: none;
   }
-  /* line 42, ../sass/responsive.scss */
+  /* line 45, ../sass/responsive.scss */
   .menu-wrapper a {
     padding: 10px 0 5px 25px;
   }
-  /* line 43, ../sass/responsive.scss */
+  /* line 46, ../sass/responsive.scss */
   .menu-wrapper a:hover {
     border: none;
   }
-  /* line 44, ../sass/responsive.scss */
+  /* line 47, ../sass/responsive.scss */
   .menu-wrapper .sub-menu {
     position: relative;
     top: 0;
@@ -133,194 +142,194 @@
     height: 130px;
     border-bottom: 3px solid #c0a878;
   }
-  /* line 52, ../sass/responsive.scss */
+  /* line 55, ../sass/responsive.scss */
   .menu-wrapper .sub-menu li {
     margin: 0;
     border-bottom: none;
     width: auto;
     padding: 0 40px;
   }
-  /* line 53, ../sass/responsive.scss */
+  /* line 56, ../sass/responsive.scss */
   .menu-wrapper .sub-menu a {
     color: #a2a2a2;
     padding: 10px 0;
   }
 
-  /* line 56, ../sass/responsive.scss */
+  /* line 59, ../sass/responsive.scss */
   .menu {
     display: none;
   }
-  /* line 56, ../sass/responsive.scss */
+  /* line 59, ../sass/responsive.scss */
   .menu ul {
     margin: 0;
   }
 
-  /* line 57, ../sass/responsive.scss */
+  /* line 60, ../sass/responsive.scss */
   .menu-toggle-line {
     background: #343434;
   }
 
-  /* line 58, ../sass/responsive.scss */
+  /* line 61, ../sass/responsive.scss */
   .menu-toggle {
     display: block;
   }
 
-  /* line 59, ../sass/responsive.scss */
+  /* line 62, ../sass/responsive.scss */
   .social-wrapper {
     float: left;
     margin-left: 10px;
   }
 
-  /* line 60, ../sass/responsive.scss */
+  /* line 63, ../sass/responsive.scss */
   .triangle-wrapper {
     position: absolute;
     left: -15px;
     top: -14px;
   }
 
-  /* line 62, ../sass/responsive.scss */
+  /* line 65, ../sass/responsive.scss */
   .billboard .slider-info p {
     margin-top: 15px;
   }
-  /* line 63, ../sass/responsive.scss */
+  /* line 66, ../sass/responsive.scss */
   .billboard .slider-info h1 {
     font-size: 36px;
   }
-  /* line 64, ../sass/responsive.scss */
+  /* line 67, ../sass/responsive.scss */
   .billboard .slider-info .action {
     position: absolute;
     top: 25px;
     right: 15px;
   }
 
-  /* line 66, ../sass/responsive.scss */
+  /* line 69, ../sass/responsive.scss */
   .submit {
     margin-top: 10px;
   }
 
-  /* line 67, ../sass/responsive.scss */
+  /* line 70, ../sass/responsive.scss */
   .services {
     margin-top: 10px;
   }
 
-  /* line 68, ../sass/responsive.scss */
+  /* line 71, ../sass/responsive.scss */
   .overslider {
-    bottom: 190px;
+    bottom: 40px;
   }
 
-  /* line 69, ../sass/responsive.scss */
+  /* line 72, ../sass/responsive.scss */
   .billboard .flex-control-nav {
-    bottom: 400px;
+    bottom: 250px;
+  }
+
+  /* line 73, ../sass/responsive.scss */
+  .sidebar-wrapper {
+    display: none;
   }
 }
 @media (max-width: 768px) {
-  /* line 74, ../sass/responsive.scss */
+  /* line 78, ../sass/responsive.scss */
   .social-wrapper {
     display: none;
   }
 
-  /* line 75, ../sass/responsive.scss */
+  /* line 79, ../sass/responsive.scss */
   .mail {
     margin: 20px 10px 0 10px;
   }
 
-  /* line 76, ../sass/responsive.scss */
+  /* line 80, ../sass/responsive.scss */
   .phone {
     margin: 20px 0 0 10px;
   }
 
-  /* line 78, ../sass/responsive.scss */
+  /* line 82, ../sass/responsive.scss */
   .billboard .slides {
     height: 450px;
   }
-  /* line 79, ../sass/responsive.scss */
+  /* line 83, ../sass/responsive.scss */
   .billboard .slider-info {
     font-size: 36px;
     padding: 0 20px;
   }
-  /* line 83, ../sass/responsive.scss */
+  /* line 87, ../sass/responsive.scss */
   .billboard .slider-info .action {
     top: 15px;
     padding: 15px;
   }
-  /* line 84, ../sass/responsive.scss */
+  /* line 88, ../sass/responsive.scss */
   .billboard .slider-info h1 {
     font-size: 30px;
   }
-  /* line 86, ../sass/responsive.scss */
+  /* line 90, ../sass/responsive.scss */
   .billboard .flex-control-nav {
     bottom: 240px;
   }
 
-  /* line 88, ../sass/responsive.scss */
+  /* line 92, ../sass/responsive.scss */
   .overslider {
     bottom: 0;
   }
 
-  /* line 89, ../sass/responsive.scss */
+  /* line 93, ../sass/responsive.scss */
   .form p {
     margin: 10px 0 0 0;
   }
 
-  /* line 90, ../sass/responsive.scss */
+  /* line 94, ../sass/responsive.scss */
   .form p input {
     width: 120px;
   }
 
-  /* line 91, ../sass/responsive.scss */
+  /* line 95, ../sass/responsive.scss */
   .submit {
     margin-top: 35px;
   }
 
-  /* line 92, ../sass/responsive.scss */
+  /* line 96, ../sass/responsive.scss */
   .about {
     margin-top: 30px;
   }
 
-  /* line 94, ../sass/responsive.scss */
+  /* line 98, ../sass/responsive.scss */
   .flexslider-2 .flex-direction-nav .flex-next, .flexslider-2 .flex-direction-nav .flex-prev {
     display: none;
   }
 
-  /* line 98, ../sass/responsive.scss */
-  .sidebar-wrapper {
-    display: none;
-  }
-
-  /* line 99, ../sass/responsive.scss */
+  /* line 102, ../sass/responsive.scss */
   .products .products_text p {
     width: 50%;
     margin-right: 50px;
   }
 
-  /* line 101, ../sass/responsive.scss */
+  /* line 104, ../sass/responsive.scss */
   .news .news_text {
     margin-top: 10px;
   }
-  /* line 102, ../sass/responsive.scss */
+  /* line 105, ../sass/responsive.scss */
   .news .news_text, .news .news_thumbnail {
     width: 100%;
   }
 }
 @media (max-width: 543px) {
-  /* line 108, ../sass/responsive.scss */
+  /* line 111, ../sass/responsive.scss */
   .logo {
     width: 100%;
     text-align: center;
   }
 
-  /* line 109, ../sass/responsive.scss */
+  /* line 112, ../sass/responsive.scss */
   .magnifier {
     right: 0;
     left: auto;
   }
 
-  /* line 110, ../sass/responsive.scss */
+  /* line 113, ../sass/responsive.scss */
   .phone, .mail {
     display: none;
   }
 
-  /* line 111, ../sass/responsive.scss */
+  /* line 114, ../sass/responsive.scss */
   .overslider {
     box-shadow: 0 3px 0 0 #c0a878;
     position: relative;
@@ -328,142 +337,142 @@
     bottom: 6px;
   }
 
-  /* line 112, ../sass/responsive.scss */
+  /* line 115, ../sass/responsive.scss */
   .form {
     padding: 10px;
     box-shadow: none;
   }
-  /* line 112, ../sass/responsive.scss */
+  /* line 115, ../sass/responsive.scss */
   .form .hotel {
     z-index: 22;
   }
 
-  /* line 114, ../sass/responsive.scss */
+  /* line 117, ../sass/responsive.scss */
   .billboard .slides {
     height: 245px;
   }
-  /* line 115, ../sass/responsive.scss */
+  /* line 118, ../sass/responsive.scss */
   .billboard .flex-control-nav {
     bottom: 100px;
   }
-  /* line 116, ../sass/responsive.scss */
+  /* line 119, ../sass/responsive.scss */
   .billboard .slider-info {
     margin: 0 auto;
   }
-  /* line 118, ../sass/responsive.scss */
+  /* line 121, ../sass/responsive.scss */
   .billboard .slider-info p {
     margin-top: 5px;
     font-size: 22px;
   }
-  /* line 119, ../sass/responsive.scss */
+  /* line 122, ../sass/responsive.scss */
   .billboard .slider-info h1 {
     font-size: 26px;
-    margin: 25px 0 10px;
+    margin: 30px 0 10px;
   }
-  /* line 120, ../sass/responsive.scss */
+  /* line 123, ../sass/responsive.scss */
   .billboard .slider-info .action {
     padding: 5px 10px;
   }
 
-  /* line 123, ../sass/responsive.scss */
+  /* line 126, ../sass/responsive.scss */
   .overslider {
     bottom: 50px;
   }
 
-  /* line 124, ../sass/responsive.scss */
+  /* line 127, ../sass/responsive.scss */
   .news .image_thumbnail {
     float: none;
   }
 
-  /* line 125, ../sass/responsive.scss */
+  /* line 128, ../sass/responsive.scss */
   .news .news_text h6 {
     margin-top: 10px;
   }
 
-  /* line 126, ../sass/responsive.scss */
+  /* line 129, ../sass/responsive.scss */
   .products .products_text p {
     width: 100%;
   }
 
-  /* line 127, ../sass/responsive.scss */
+  /* line 130, ../sass/responsive.scss */
   .copyright_wraper .right_border {
     border-right: none;
   }
 
-  /* line 128, ../sass/responsive.scss */
+  /* line 131, ../sass/responsive.scss */
   .copyright_wraper a {
     display: block;
     margin: 0 auto;
     padding: 10px 0;
   }
 
-  /* line 129, ../sass/responsive.scss */
+  /* line 132, ../sass/responsive.scss */
   .copyright_wraper .designed {
     padding: 10px 0;
   }
 
-  /* line 130, ../sass/responsive.scss */
+  /* line 133, ../sass/responsive.scss */
   .copyright_wraper .copyright, .copyright_wraper .designed {
     float: none;
     margin: 0 auto;
     text-align: center;
   }
 
-  /* line 131, ../sass/responsive.scss */
+  /* line 134, ../sass/responsive.scss */
   .footer .footer_logo {
     display: block;
     margin: 20px auto;
   }
 
-  /* line 132, ../sass/responsive.scss */
+  /* line 135, ../sass/responsive.scss */
   .footer {
     padding-bottom: 10px;
   }
 
-  /* line 133, ../sass/responsive.scss */
+  /* line 136, ../sass/responsive.scss */
   .footer h3 {
     margin-top: 20px;
   }
 }
 @media (max-width: 425px) {
-  /* line 138, ../sass/responsive.scss */
+  /* line 141, ../sass/responsive.scss */
   .billboard .slides {
     height: 220px;
   }
-  /* line 139, ../sass/responsive.scss */
+  /* line 142, ../sass/responsive.scss */
   .billboard .flex-control-nav {
     float: right;
     bottom: 70px;
   }
 
-  /* line 141, ../sass/responsive.scss */
+  /* line 144, ../sass/responsive.scss */
   .selector-name {
     margin-top: 15px;
   }
 
-  /* line 142, ../sass/responsive.scss */
+  /* line 145, ../sass/responsive.scss */
   .form-date {
     width: 100%;
     margin: 0;
   }
 
-  /* line 143, ../sass/responsive.scss */
+  /* line 146, ../sass/responsive.scss */
   .form .form-selector input {
     width: 100%;
     margin-top: 10px;
   }
 
-  /* line 144, ../sass/responsive.scss */
+  /* line 147, ../sass/responsive.scss */
   .form .form-selector {
     margin: 0;
   }
 
-  /* line 145, ../sass/responsive.scss */
+  /* line 148, ../sass/responsive.scss */
   .form-number {
     width: 50%;
   }
 
-  /* line 146, ../sass/responsive.scss */
+  /* line 149, ../sass/responsive.scss */
   .soflow {
     background-image: url("../images/down_arrow_light.png"), linear-gradient(to right, transparent 70%, #ebebeb 40%);
     width: 90%;
@@ -471,70 +480,65 @@
     margin-top: 5px;
   }
 
-  /* line 152, ../sass/responsive.scss */
+  /* line 155, ../sass/responsive.scss */
   .submit {
     margin: 15px 0 0 0;
   }
 }
 @media (max-width: 375px) {
-  /* line 157, ../sass/responsive.scss */
+  /* line 160, ../sass/responsive.scss */
   .billboard .slides {
-    height: 185px;
+    height: 215px;
   }
-  /* line 159, ../sass/responsive.scss */
+  /* line 162, ../sass/responsive.scss */
   .billboard .slider-info .action {
-    padding: 10px;
     font-size: 12px;
   }
-  /* line 160, ../sass/responsive.scss */
+  /* line 163, ../sass/responsive.scss */
   .billboard .slider-info h1, .billboard .slider-info p {
     font-size: 18px;
   }
-  /* line 162, ../sass/responsive.scss */
+  /* line 165, ../sass/responsive.scss */
   .billboard .flex-control-nav {
     bottom: 70px;
   }
 
-  /* line 164, ../sass/responsive.scss */
+  /* line 167, ../sass/responsive.scss */
   .form-date {
     width: 100%;
     margin: 0;
   }
 
-  /* line 165, ../sass/responsive.scss */
+  /* line 168, ../sass/responsive.scss */
   .form .form-selector input {
     width: 100%;
     margin-top: 10px;
   }
 
-  /* line 166, ../sass/responsive.scss */
+  /* line 169, ../sass/responsive.scss */
   .soflow {
     background-image: url("../images/down_arrow_light.png"), linear-gradient(to right, transparent 67%, #ebebeb 40%);
     width: 140px;
   }
 }
 @media (max-width: 320px) {
-  /* line 174, ../sass/responsive.scss */
-  .slides {
-    height: 185px;
-  }
-  /* line 174, ../sass/responsive.scss */
+  /* line 177, ../sass/responsive.scss */
   .slides .slider-info h1, .slides .slider-info p {
     font-size: 14px;
   }
-  /* line 174, ../sass/responsive.scss */
+  /* line 177, ../sass/responsive.scss */
   .slides .slider-info .action {
     padding: 5px;
     font-size: 12px;
     top: 5px;
   }
 
-  /* line 176, ../sass/responsive.scss */
+  /* line 179, ../sass/responsive.scss */
   .form .form-selector input {
     width: 255px;
   }
 
-  /* line 177, ../sass/responsive.scss */
+  /* line 180, ../sass/responsive.scss */
   .soflow {
     background-image: url("../images/down_arrow_light.png"), linear-gradient(to right, transparent 65%, #ebebeb 40%);
     width: 120px;

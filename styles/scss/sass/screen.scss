@@ -198,7 +198,7 @@ a:focus, a:hover {text-decoration: none!important;}
     padding: 0 15px;
     position: relative;
     bottom: 230px;
-    z-index: 111;
+    z-index: 40;
 
     li {float: left; margin-right: 12px;}
     a {width: 13px;
@@ -223,7 +223,7 @@ a:focus, a:hover {text-decoration: none!important;}
   }
   .slides {
     .container {position: relative;}
-    height: 750px;
+    max-height: 750px;
     overflow: hidden;
     li img {
       width: 100%
@@ -235,6 +235,7 @@ a:focus, a:hover {text-decoration: none!important;}
     padding: 0 15px;
     position: absolute;
     margin: 0 auto;
+    z-index: 0;
 
     p {
       margin-top: 120px;
