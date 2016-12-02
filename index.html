@@ -13,107 +13,119 @@
     <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
     <script type="text/javascript" src="js/jquery-1.11.3.js"></script>
     <script type="text/javascript" src="js/scripts.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
     <script type="text/javascript" src="js/flexSlider/jquery.flexslider.js"></script>
     <script type="text/javascript" src="js/jquery-ui/jquery-ui.js"></script>
     <link rel="stylesheet" href="js/jquery-ui/jquery-ui.css">
     <link rel="stylesheet" href="js/custom-scrollbar/jquery.mCustomScrollbar.css" />
     <script src="js/custom-scrollbar/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script>
+    function orgChartClick(){
+      window.open("OrgChart/example/example.html","popup","height=200,width=200");
+    //  window.open(url, windowName, "height=200,width=200");
+    }
+
+    </script>
+
+  </head>
 </head>
 <body>
     <!--   HEADER   -->
     <div id="header" class="header">
-        <div class="white-block"></div>
-        <div class="grey-block"></div>
+      <div id="loadHtml"></div>
+      <!-- <div class="white-block"></div>
+      <div class="grey-block"></div>
 
-        <div class="header-wrapper">
-            <a class="logo" href="#"><img src="styles/scss/images/header_logo.png" alt="logo"></a>
+      <div class="header-wrapper">
+          <a class="logo" href="#"><img src="styles/scss/images/header_logo.png" alt="logo"></a>
 
 
-            <div class="mail"><a href="#"><img src="styles/scss/images/mail.png" alt="mail">info@hellohelp.com</a></div>
-            <div class="phone"><a href="#"><img src="styles/scss/images/phone.png" alt="phone">+440 875369208</a></div>
+          <div class="mail"><a href="#"><img src="styles/scss/images/mail.png" alt="mail">info@hellohelp.com</a></div>
+          <div class="phone"><a href="#"><img src="styles/scss/images/phone.png" alt="phone">+440 875369208</a></div>
 
-            <div class="social-wrapper">
-                <div class="login"><a href="#">Log In<img src="styles/scss/images/right_arrow.png" alt="arrow"></a></div>
+          <div class="social-wrapper">
+              <div class="login"><a href="#">Log In<img src="styles/scss/images/right_arrow.png" alt="arrow"></a></div>
 
-                <div class="language">
-                    <ul>
-                        <li>
-                            <a href="#">En<img src="styles/scss/images/down_arrow.png" alt="arrow"></a>
+              <div class="language">
+                  <ul>
+                      <li>
+                          <a href="#">En<img src="styles/scss/images/down_arrow.png" alt="arrow"></a>
 
-                            <ul class="other">
-                                <li><a href="#">Ru</a></li>
-                                <li><a href="#">Es</a></li>
-                                <li><a href="#">Fr</a></li>
-                                <li><a href="#">Pt</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
+                          <ul class="other">
+                              <li><a href="#">Ru</a></li>
+                              <li><a href="#">Es</a></li>
+                              <li><a href="#">Fr</a></li>
+                              <li><a href="#">Pt</a></li>
+                          </ul>
+                      </li>
+                  </ul>
+              </div>
 
-                <div class="social">
-                    <a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
-                    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                    <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                    <a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a>
-                </div>
-            </div>
+              <div class="social">
+                  <a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+                  <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                  <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                  <a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+              </div>
+          </div>
 
-            <a href="#" class="menu-toggle"><div class="menu-toggle-line"></div><div class="menu-toggle-line"></div><div class="menu-toggle-line"></div></a>
-            <div class="menu-wrapper">
+          <a href="#" class="menu-toggle"><div class="menu-toggle-line"></div><div class="menu-toggle-line"></div><div class="menu-toggle-line"></div></a>
+          <div class="menu-wrapper">
 
-                <nav class="menu">
-                    <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About Us</a></li>
-                        <li>
-                            <a href="#">Services<span><i class="fa fa-caret-down" aria-hidden="true"></i></span></a>
-                            <div class="sub-menu mCustomScrollbar">
-                                <ul>
-                                    <li><a href="#">Lorem ipsum</a></li>
-                                    <li><a href="#">Lorem ipsum</a></li>
-                                    <li><a href="#">Lorem ipsum</a></li>
-                                    <li><a href="#">Lorem ipsum</a></li>
-                                    <li><a href="#">Lorem ipsum</a></li>
-                                    <li><a href="#">Lorem ipsum</a></li>
-                                    <li><a href="#">Lorem ipsum</a></li>
-                                    <li><a href="#">Lorem ipsum</a></li>
-                                    <li><a href="#">Lorem ipsum</a></li>
-                                    <li><a href="#">Lorem ipsum</a></li>
-                                </ul>
-                            </div>
-                        </li>
-                        <li>
-                            <a href="#">Products<span><i class="fa fa-caret-down" aria-hidden="true"></i></span></a>
-                            <div class="sub-menu mCustomScrollbar">
-                                <ul>
-                                    <li><a href="#">Lorem ipsum</a></li>
-                                    <li><a href="#">Lorem ipsum</a></li>
-                                    <li><a href="#">Lorem ipsum</a></li>
-                                    <li><a href="#">Lorem ipsum</a></li>
-                                    <li><a href="#">Lorem ipsum</a></li>
-                                    <li><a href="#">Lorem ipsum</a></li>
-                                    <li><a href="#">Lorem ipsum</a></li>
-                                    <li><a href="#">Lorem ipsum</a></li>
-                                    <li><a href="#">Lorem ipsum</a></li>
-                                    <li><a href="#">Lorem ipsum</a></li>
-                                </ul>
-                            </div>
-                        </li>
-                        <li><a href="#">Gallery</a></li>
-                        <li class="last"><a href="#">Contact</a></li>
-                    </ul>
-                    <div class="triangle-wrapper"></div>
-                </nav>
-            </div>
+              <nav class="menu">
+                  <ul>
+                      <li><a href="#">Home</a></li>
+                      <li><a href="#">About Us</a></li>
+                      <li>
+                          <a href="#">Services<span><i class="fa fa-caret-down" aria-hidden="true"></i></span></a>
+                          <div class="sub-menu mCustomScrollbar">
+                              <ul>
+                                  <li><a id="OrgChartClick" href="#">Org Chart</li>
+                                  <li><a href="#">Lorem ipsum</a></li>
+                                  <li><a href="#">Lorem ipsum</a></li>
+                                  <li><a href="#">Lorem ipsum</a></li>
+                                  <li><a href="#">Lorem ipsum</a></li>
+                                  <li><a href="#">Lorem ipsum</a></li>
+                                  <li><a href="#">Lorem ipsum</a></li>
+                                  <li><a href="#">Lorem ipsum</a></li>
+                                  <li><a href="#">Lorem ipsum</a></li>
+                                  <li><a href="#">Lorem ipsum</a></li>
+                              </ul>
+                          </div>
+                      </li>
+                      <li>
+                          <a href="#">Products<span><i class="fa fa-caret-down" aria-hidden="true"></i></span></a>
+                          <div class="sub-menu mCustomScrollbar">
+                              <ul>
+                                  <li><a href="#">Lorem ipsum</a></li>
+                                  <li><a href="#">Lorem ipsum</a></li>
+                                  <li><a href="#">Lorem ipsum</a></li>
+                                  <li><a href="#">Lorem ipsum</a></li>
+                                  <li><a href="#">Lorem ipsum</a></li>
+                                  <li><a href="#">Lorem ipsum</a></li>
+                                  <li><a href="#">Lorem ipsum</a></li>
+                                  <li><a href="#">Lorem ipsum</a></li>
+                                  <li><a href="#">Lorem ipsum</a></li>
+                                  <li><a href="#">Lorem ipsum</a></li>
+                              </ul>
+                          </div>
+                      </li>
+                      <li><a href="#">Gallery</a></li>
+                      <li class="last"><a href="#">Contact</a></li>
+                  </ul>
+                  <div class="triangle-wrapper"></div>
+              </nav>
+          </div>
 
-            <div class="form-wrapper">
-                <a class="magnifier" href="#"><img src="styles/scss/images/magnifier.png" alt="magnifier"></a>
+          <div class="form-wrapper">
+              <a class="magnifier" href="#"><img src="styles/scss/images/magnifier.png" alt="magnifier"></a>
 
-                <form>
-                    <input class="search" type="text" placeholder="Enter Keywords" required>
-                </form>
-            </div>
-        </div>
+              <form>
+                  <input class="search" type="text" placeholder="Enter Keywords" required>
+              </form>
+          </div>
+      </div> -->
+
     </div>
 
     <!--   SLIDER   -->
@@ -544,5 +556,9 @@
             </div>
         </div>
     </div>
+
+    <script>
+      w3IncludeHTML();
+    </script>
 </body>
 </html>
