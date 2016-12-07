@@ -3,7 +3,7 @@ $(document).ready(function(){
 
   $("#loadHtml").load("header1.html");
 
-  var mesage = "This is a prototype. Hold On Guys, Wait until the Website goes live.";
+  var mesage = "This is a prototype. Hold On guys, Wait until the Website goes live.";
   // function orgChartClick(){
   //   window.open("OrgChart/example/example.html","popup","height=1500px,width=1500px");
   // //  window.open(url, windowName, "height=200,width=200");
@@ -25,7 +25,11 @@ $(document).ready(function(){
       alert(mesage);
   });
 
-  $("#magic").click(function(){
+  $("#casino").click(function(){
+      alert(mesage);
+  });
+
+  $("#concert").click(function(){
       alert(mesage);
   });
 
