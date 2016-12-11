@@ -3,7 +3,7 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Nortsea hotel</title>
+    <title>DilAish Royal Suite</title>
     <link href="styles/scss/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
     <link href="styles/scss/stylesheets/responsive.css" media="screen, projection" rel="stylesheet" type="text/css" />
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -14,6 +14,7 @@
     <script type="text/javascript" src="js/jquery-1.11.3.js"></script>
     <script type="text/javascript" src="js/scripts.js"></script>
     <script type="text/javascript" src="js/app.js"></script>
+      <script type="text/javascript" src="js/revenue.js"></script>
     <script type="text/javascript" src="js/flexSlider/jquery.flexslider.js"></script>
     <script type="text/javascript" src="js/jquery-ui/jquery-ui.js"></script>
     <link rel="stylesheet" href="js/jquery-ui/jquery-ui.css">
@@ -44,194 +45,200 @@
 
                 <th>Position</th>
                 <th>Total Number </th>
-                <th>Salary Range</th>
+                <th>Salary Range (Per Person)</th>
             </tr>
         </thead>
         <tbody>
             <tr class="success">
                 <td>General Manager</td>
-                <td>1</td>
-                <td>$200  - $280k</td>
+                <td> <div id="tot1">1</div></td>
+                <td > <div id="sal1">$116000</div></td>
             </tr>
             <tr class="danger">
                 <td>HR </td>
-                <td>1</td>
-                <td>$200  - $280k</td>
+                <td> <div id="tot2">3</div></td>
+                <td id="sal2">$80000</td>
             </tr>
             <tr class="info">
                 <td>Controller</td>
-                <td>1</td>
-                <td>$200  - $280k</td>
+                <td><div id="tot3">1</div></td>
+                <td id="sal3">$45760</td>
             </tr>
             <tr>
                 <td>Assistant Controller</td>
-                <td>1</td>
-                <td>$200  - $280k</td>
+                <td id="tot4">1</td>
+                <td id="sal4">$37440</td>
             </tr>
             <tr>
                 <td>Purchasing Agent</td>
-                <td>1</td>
-                <td>$200  - $280k</td>
+                <td id="tot5">1</td>
+                <td id="sal5">$31200</td>
             </tr>
             <tr>
                 <td>Night Auditor</td>
-                <td>1</td>
-                <td>$200  - $280k</td>
+                <td id="tot6">2</td>
+                <td id="sal6">$24960</td>
             </tr>
-            <tr>
+            <!-- <tr>
                 <td>Accounts Receivable</td>
                 <td>1</td>
                 <td>$200  - $280k</td>
-            </tr>
+            </tr> -->
             <tr>
                 <td>General Office Clerk </td>
-                <td>1</td>
-                <td>$200  - $280k</td>
+                <td id="tot7">1</td>
+                <td id="sal7">$24960</td>
             </tr>
             <tr class="info">
                 <td>Sales Manager</td>
-                <td>1</td>
-                <td>$200  - $280k</td>
+                <td id="tot8">2</td>
+                <td id="sal8">$32240</td>
             </tr>
             <tr>
                 <td>Sales/Catering Director</td>
-                <td>1</td>
-                <td>$200  - $280k</td>
+                <td id="tot9">1</td>
+                <td id="sal9">$31200</td>
             </tr>
             <tr>
                 <td>Catering Manager</td>
-                <td>1</td>
-                <td>$200  - $280k</td>
+                <td id="tot10">1</td>
+                <td id="sal10">$31200</td>
             </tr>
             <tr>
                 <td>Administrative Agent</td>
-                <td>1</td>
-                <td>$200  - $280k</td>
+                <td id="tot11">1</td>
+                <td id="sal11">$31200
             </tr>
             <tr class="info">
                 <td>Customer Service Director</td>
-                <td>1</td>
-                <td>$200  - $280k</td>
+                <td id="tot12">1</td>
+                <td id="sal12">$88000</td>
             </tr>
             <tr>
                 <td>House Keeping Manager</td>
-                <td>1</td>
-                <td>$200  - $280k</td>
+                <td id="tot13">1</td>
+                <td id="sal13">$39000</td>
             </tr>
             <tr>
                 <td>House Keeping Director</td>
-                <td>1</td>
-                <td>$200  - $280k</td>
+                <td id="tot14">1</td>
+                <td id="tot14">$53000</td>
             </tr>
             <tr>
                 <td>Room Attendant</td>
-                <td>1</td>
-                <td>$200  - $280k</td>
+                <td id="tot15">10</td>
+                <td id="tot15">$18720</td>
             </tr>
             <tr>
                 <td>Laundry Worker</td>
-                <td>1</td>
-                <td>$200  - $280k</td>
+                <td id="tot16">5</td>
+                <td id="tot16">$18720</td>
             </tr>
             <tr>
                 <td>House Person</td>
-                <td>1</td>
-                <td>$200  - $280k</td>
+                <td id="tot17">15</td>
+                <td id="tot17">$45000</td>
             </tr>
             <tr class="info">
                 <td>Food Beverage Director</td>
-                <td>1</td>
-                <td>$200  - $280k</td>
+                <td id="tot18">1</td>
+                <td id="tot18">$64000</td>
             </tr>
             <tr>
                 <td>Banquet Manager</td>
-                <td>1</td>
-                <td>$200  - $280k</td>
+                <td id="tot19">1</td>
+                <td id="tot19">$45000</td>
             </tr>
             <tr>
                 <td>Banquet Captain </td>
-                <td>1</td>
-                <td>$200  - $280k</td>
+                <td id="tot20">1</td>
+                <td id="tot20">$24960</td>
             </tr>
             <tr class="info">
                 <td>Executive Chef</td>
-                <td>1</td>
-                <td>$200  - $280k</td>
+                <td id="tot21">3</td>
+                <td id="tot21">$57000</td>
             </tr>
             <tr>
                 <td>Sous Chef</td>
-                <td>1</td>
-                <td>$200  - $280k</td>
+                <td id="tot22">20</td>
+                <td id="tot22">$40000</td>
             </tr>
-            <tr>
+            <!-- <tr>
                 <td>AM/PM Cooks</td>
                 <td>1</td>
                 <td>$200  - $280k</td>
-            </tr>
+            </tr> -->
             <tr>
                 <td>Dish Washer</td>
-                <td>1</td>
-                <td>$200  - $280k</td>
+                <td id="tot23">5</td>
+                <td id="tot23">$40000</td>
             </tr>
             <tr class="info">
-                <td>Restaurant Sypervisor</td>
-                <td>1</td>
-                <td>$200  - $280k</td>
+                <td>Restaurant Supervisor</td>
+                <td id="tot24">6</td>
+                <td id="tot24">$40000</td>
             </tr>
             <tr>
                 <td>Food Server</td>
-                <td>1</td>
-                <td>$200  - $280k</td>
+                <td id="tot25">30</td>
+                <td id="tot25">$16640</td>
             </tr>
             <tr>
                 <td>Cashier/Host</td>
-                <td>1</td>
-                <td>$200  - $280k</td>
+                <td id="tot26">6</td>
+                <td id="tot26">$16640</td>
             </tr>
             <tr>
                 <td>Bus Person</td>
-                <td>1</td>
-                <td>$200  - $280k</td>
+                <td id="tot27">3</td>
+                <td id="tot27">$30000</td>
             </tr>
             <tr class="info">
                 <td>Front Office Manager </td>
-                <td>1</td>
-                <td>$200  - $280k</td>
+                <td id="tot28">1</td>
+                <td id="tot28">$30000</td>
             </tr>
             <tr>
                 <td>Assistant Front Office Manager </td>
-                <td>1</td>
-                <td>$200  - $280k</td>
+                <td id="tot29">1</td>
+                <td id="tot29">$24000</td>
             </tr>
-            <tr>
+            <!-- <tr>
                 <td>F/O Supervisor AM/FM</td>
                 <td>1</td>
                 <td>$200  - $280k</td>
-            </tr>
+            </tr> -->
             <tr>
                 <td>Front Desk Agent</td>
-                <td>1</td>
-                <td>$200  - $280k</td>
+                <td id="tot30">4</td>
+                <td id="tot30">$20800</td>
             </tr>
-            <tr>
+            <!-- <tr>
                 <td>PBX Operator</td>
                 <td>1</td>
                 <td>$200  - $280k</td>
-            </tr>
+            </tr> -->
             <tr class="info">
                 <td>Security Agent </td>
-                <td>1</td>
-                <td>$200  - $280k</td>
+                <td id="tot31">5</td>
+                <td id="tot31">$20800</td>
             </tr>
             <tr>
                 <td>Reservation Supervisor </td>
-                <td>1</td>
-                <td>$200  - $280k</td>
+                <td id="tot32">3</td>
+                <td id="tot32">$18000</td>
             </tr>
             <tr>
                 <td>Reservation Agent</td>
-                <td>1</td>
-                <td>$200  - $280k</td>
+                <td id="tot33">3</td>
+                <td id="tot33">$31200</td>
+            </tr>
+
+            <tr class="success">
+                <td colspan="2" >Total paid to Employees  per year  </td>
+
+                <td><div id="totalSal"> $4461960 </div></td>
             </tr>
 
 

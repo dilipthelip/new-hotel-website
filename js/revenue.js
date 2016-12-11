@@ -20,6 +20,7 @@ var luxurySuiteTotalVal = noOfLuxurySuiteRooms * luxurySuiteVal * 30 * (.75) ;
 
 var totalRev = (royalSuiteTotalVal + romanticSuiteTotalVal + corporateSuiteTotalVal + luxurySuiteTotalVal) * 12 ;
 
+var salPaid = '4461960';
 
 
 
@@ -46,5 +47,11 @@ var totalRev = (royalSuiteTotalVal + romanticSuiteTotalVal + corporateSuiteTotal
     $("#luxurySuiteTotalVal").text('$'+luxurySuiteTotalVal);
 
     $("#totalRev").text('$'+totalRev);
+
+      //$("#totalHotelRev").text('$'+totalRev);
+      $("#totalSalPaid").text('$'+salPaid);
+        $("#totalHotelRev").text('$'+(totalRev-salPaid));
+
+
 
 });

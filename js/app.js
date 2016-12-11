@@ -35,6 +35,13 @@ $(document).ready(function(){
 
 });
 
+var it=3;
+
+// for (i = 1; i < it; i++) {
+//   //  alert("Index is : "+ 1)
+//     alert($("#sal1").val());
+// }
+
 function orgChartClick(){
 
   window.open("OrgChart/example/example.html","popup","height=1500px,width=1500px");
